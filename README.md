@@ -9,9 +9,9 @@
 ## Summary
 
 1. Test Scenarios:
-  :file_folder: [Test Scenarios](01_test_scenarios/test_scenarios.md)
+  📄 [Test Scenarios](01_test_scenarios/test_scenarios.md)
 
 2. Front-end Automation:
-  :file_folder: [Front-end Automation](02_frontend_automation/README.md)
+  📄 [Front-end Automation](02_frontend_automation/README.md)
 
 3. Back-end Automation

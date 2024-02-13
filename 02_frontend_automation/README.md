@@ -26,4 +26,4 @@ In the second one, the selectors of the elements you use will be evaluated. Your
 ### Running the all tests and create report
 `npm run cy:all`
 
-In this case, the report will be generate in: :page_with_curl: [cypress/results/output](cypress/results/output.html)
+In this case, the report will be generate in: 📄 [cypress/results/output](cypress/results/output.html)
