@@ -1,9 +1,17 @@
 # Vertrical -  Systems Quality Assurance Challenge
 
-## #1 Test Scenarios
+## Challenge
 
-:file_folder: [Test Scenarios](01_test_scenarios/test_scenarios.md)
+1. Specify test scenarios based on a prototype;
+2. Automate the front-end test of 2 functionalities;
+3. Automate the back-end test of an API;
 
-## #2 Front-end Automation
+## Summary
 
-## #3 Back-end Automation
+1. Test Scenarios:
+  :file_folder: [Test Scenarios](01_test_scenarios/test_scenarios.md)
+
+2. Front-end Automation:
+  :file_folder: [Front-end Automation](02_frontend_automation/README.md)
+
+3. Back-end Automation
