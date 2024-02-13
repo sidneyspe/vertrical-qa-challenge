@@ -1,6 +1,4 @@
-# Vertrical - Challenge
-
----
+# Vertrical -  Systems Quality Assurance Challenge
 
 ## 1. Specify test scenarios based on a prototype
 
