@@ -12,11 +12,12 @@
     "report:cleanup": "rm -rf cypress/report/",
     "video:cleanup": "rm -rf cypress/videos/",
     "screenshots:cleanup": "rm -rf cypress/screenshots/",
-    "report:merge": "mochawesome-merge cypress/results/json/*.json > cypress/results/output.json",
-    "report:generate": "marge cypress/results/output.json --reportDir cypress/results/ --inline --chart true",
+    "report:merge": "npx mochawesome-merge cypress/results/json/*.json > cypress/results/output.json",
+    "report:generate": "npx marge cypress/results/output.json --reportDir cypress/results/ --inline --chart true",
     "report:copyScreenshots": "cp -r cypress/screenshots cypress/results/screenshots",
     "report:copyVideos": "cp -r cypress/videos cypress/results/videos",
-    "cy:all": "npm run precy:run && npm run cy:headless && npm run report:merge && npm run report:generate  && npm run report:copyVideos && npm run report:copyScreenshots"
+    "report:all" : "npm run report:merge && npm run report:generate && npm run report:copyVideos && npm run report:copyScreenshots",
+    "cy:all": "npm run precy:run && npm run cy:headless"
   },
   "husky": {
     "hooks": {

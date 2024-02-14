@@ -14,6 +14,6 @@ module.exports = defineConfig({
     },
   },
   video: true,
-  videosFolder: './results/videos',
-  screenshotsFolder: './results/screenshots'
+  videosFolder: './cypress/results/videos',
+  screenshotsFolder: './cypress/results/screenshots'
 });

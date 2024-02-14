@@ -53,6 +53,25 @@ Cypress.Commands.add('api_getUserByName', (param) => {
   });
 });
 
+Cypress.Commands.add('api_editUser', (user) => {
+  cy.request({
+    method: 'PUT',
+    url: `/users/${user.id}`,
+    body: {
+      user
+    },
+    headers: { Authorization: accessToken },
+  });
+});
+
+Cypress.Commands.add('api_deleteUser', (user_id) => {
+  cy.request({
+    method: 'DELETE',
+    url: `/users/${user_id}`,
+    headers: { Authorization: accessToken },
+  });
+});
+
 Cypress.Commands.add('api_deleteUsers', () => {
   cy.api_getAllUsers().then((res) =>
     res.body.forEach((user) =>

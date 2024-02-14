@@ -23,3 +23,11 @@ Create a collection of tests that validates the GET, POST, PUT, and DELETE of th
 `npm run cy:all`
 
 In this case, the report will be generate in: 📄 [cypress/results/output](cypress/results/output.html)
+
+### Postman Collection
+
+If you want use the postman collection, you can import the files locale in: 
+
+**Environment**: 📄 [postman/JSONPLACEHOLDER_ENVIRONMENT.postman_environment.json](postman/JSONPLACEHOLDER_ENVIRONMENT.postman_environment.json)
+
+**Collection**: 📄 [postman/jsonplaceholder_vertrical_test.postman_collection.json](postman/jsonplaceholder_vertrical_test.postman_collection.json)
